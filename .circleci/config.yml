@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           pip3 freeze
-          name: Install pthon dependencies
+          name: install pthon dependencies
           command:
             pip install --user -r requirments.txt
       - run:
